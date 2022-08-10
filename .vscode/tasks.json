@@ -1,0 +1,35 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+    {
+      "type": "npm",
+      "script": "install",
+      "group": "clean",
+      "problemMatcher": [],
+      "label": "npm: install",
+      "detail": "install dependencies from package"
+    },
+    {
+      "type": "npm",
+      "script": "serve",
+      "problemMatcher": [],
+      "label": "npm: serve",
+      "detail": "npx eleventy --serve"
+    },
+    {
+      "type": "npm",
+      "script": "watch",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: watch",
+      "detail": "npx tailwindcss -i ./tailwind.css -o ./_site/assets/css/styles.css --watch"
+    },
+    {
+      "type": "npm",
+      "script": "minify",
+      "problemMatcher": [],
+      "label": "npm: minify",
+      "detail": "npx tailwindcss -i ./tailwind.css -o ./_site/assets/css/styles.css --minify"
+    }
+  ]
+}
