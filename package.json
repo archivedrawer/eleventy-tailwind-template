@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npx eleventy --serve",
     "dev": "npx tailwindcss -i ./tailwind.css -o ./_site/assets/css/styles.css --watch",
-    "prod": "npx tailwindcss -i ./tailwind.css -o ./_site/assets/css/styles.css --minify"
+    "prod": "npx tailwindcss -i ./tailwind.css -o ./_site/assets/css/styles.css --minify",
+    "deploy": "npx netlify init"
   },
   "keywords": [],
   "author": "",

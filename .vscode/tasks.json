@@ -30,6 +30,13 @@
       "problemMatcher": [],
       "label": "npm: prod",
       "detail": "npx tailwindcss -i ./tailwind.css -o ./_site/assets/css/styles.css --minify"
+    },
+    {
+      "type": "npm",
+      "script": "deploy",
+      "problemMatcher": [],
+      "label": "npm: deploy",
+      "detail": "npx netlify init"
     }
   ]
 }
