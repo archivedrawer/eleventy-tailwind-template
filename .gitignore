@@ -66,7 +66,7 @@ dev/
 dist/
 
 # Eleventy _site folder
-/_site
+_site/
 
 # Local Netlify folder
 .netlify
