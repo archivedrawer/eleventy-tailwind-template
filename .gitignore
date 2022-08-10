@@ -65,7 +65,7 @@ typings/
 dev/
 dist/
 
-# Eleventy _site folder
+# Eleventy build folder
 _site/
 
 # Local Netlify folder
