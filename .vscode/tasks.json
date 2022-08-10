@@ -11,24 +11,24 @@
     },
     {
       "type": "npm",
-      "script": "serve",
+      "script": "build",
+      "group": "build",
       "problemMatcher": [],
-      "label": "npm: serve",
+      "label": "npm: build",
       "detail": "npx eleventy --serve"
     },
     {
       "type": "npm",
-      "script": "watch",
-      "group": "build",
+      "script": "dev",
       "problemMatcher": [],
-      "label": "npm: watch",
+      "label": "npm: dev",
       "detail": "npx tailwindcss -i ./tailwind.css -o ./_site/assets/css/styles.css --watch"
     },
     {
       "type": "npm",
-      "script": "minify",
+      "script": "prod",
       "problemMatcher": [],
-      "label": "npm: minify",
+      "label": "npm: prod",
       "detail": "npx tailwindcss -i ./tailwind.css -o ./_site/assets/css/styles.css --minify"
     }
   ]
