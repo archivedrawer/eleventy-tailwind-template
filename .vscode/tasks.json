@@ -22,14 +22,14 @@
       "group": "build",
       "problemMatcher": [],
       "label": "npm: watch",
-      "detail": "npx tailwindcss -i ./tailwind.css -o ./_site/assets/css/styles.css --watch"
+      "detail": "npx tailwindcss -i ./tailwind.css -o ./assets/css/styles.css --watch"
     },
     {
       "type": "npm",
       "script": "minify",
       "problemMatcher": [],
       "label": "npm: minify",
-      "detail": "npx tailwindcss -i ./tailwind.css -o ./_site/assets/css/styles.css --minify"
+      "detail": "npx tailwindcss -i ./tailwind.css -o ./assets/css/styles.css --minify"
     }
   ]
 }
