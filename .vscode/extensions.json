@@ -1,6 +1,10 @@
 {
   "recommendations": [
+    "adrianwilczynski.alpine-js-intellisense",
     "bradlc.vscode-tailwindcss",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "Janne252.fontawesome-autocomplete",
     "ronnidc.nunjucks"
   ]
 }
