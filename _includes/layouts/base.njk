@@ -11,8 +11,9 @@
   {# <script defer src="/assets/js/lib/**.min.js"></script> #}
   <script defer src="/assets/js/alpine.min.js"></script>
 </head>
-<body class="min-h-screen flex flex-col">
-  {% include 'partials/_header.html' %}
+<body class="antialised min-h-screen flex flex-col text-gray-700" x-data="{'darkMode': false}"
+  x-init="darkMode = JSON.parse(localStorage.getItem('darkMode')); $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))">
+  {% include 'partials/_header.njk' %}
   {{ content | safe }}
   {% include 'partials/_footer.html' %}
 </body>

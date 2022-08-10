@@ -1,0 +1,7 @@
+{% macro service(shadow, color, heading, paragraph) %}
+<div class="rounded-lg border border-gray-100 bg-white p-6 {{ shadow }}">
+  <div class="h-1.5 w-12 {{ color }}"></div>
+  <h3 class="mt-2.5 text-xl font-semibold">{{ heading }}</h3>
+  <p class="mt-4 text-gray-600">{{ paragraph }}</p>
+</div>
+{% endmacro %}
