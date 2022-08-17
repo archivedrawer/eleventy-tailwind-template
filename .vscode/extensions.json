@@ -2,6 +2,7 @@
   "recommendations": [
     "adrianwilczynski.alpine-js-intellisense",
     "bradlc.vscode-tailwindcss",
+    "donjayamanne.jquerysnippets",
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
     "Janne252.fontawesome-autocomplete",
