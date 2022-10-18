@@ -5,7 +5,7 @@
     "donjayamanne.jquerysnippets",
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
-    "Janne252.fontawesome-autocomplete",
-    "ronnidc.nunjucks"
+    "ronnidc.nunjucks",
+    "thekalinga.bootstrap4-vscode",
   ]
 }
